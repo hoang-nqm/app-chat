@@ -1,0 +1,15 @@
+.userInfor {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid white;
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    &_name {
+      color: white;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+}
